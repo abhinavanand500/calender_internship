@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/calender_internship/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/calender_internship/static/js/main.6de56f95.chunk.js",
+    "main.js.map": "/calender_internship/static/js/main.6de56f95.chunk.js.map",
+    "runtime-main.js": "/calender_internship/static/js/runtime-main.dc5a10e8.js",
+    "runtime-main.js.map": "/calender_internship/static/js/runtime-main.dc5a10e8.js.map",
+    "static/css/2.736d670c.chunk.css": "/calender_internship/static/css/2.736d670c.chunk.css",
+    "static/js/2.6535d15b.chunk.js": "/calender_internship/static/js/2.6535d15b.chunk.js",
+    "static/js/2.6535d15b.chunk.js.map": "/calender_internship/static/js/2.6535d15b.chunk.js.map",
+    "static/js/3.cad5ed37.chunk.js": "/calender_internship/static/js/3.cad5ed37.chunk.js",
+    "static/js/3.cad5ed37.chunk.js.map": "/calender_internship/static/js/3.cad5ed37.chunk.js.map",
+    "index.html": "/calender_internship/index.html",
+    "static/css/2.736d670c.chunk.css.map": "/calender_internship/static/css/2.736d670c.chunk.css.map",
+    "static/css/main.9d5b29c0.chunk.css.map": "/calender_internship/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.6535d15b.chunk.js.LICENSE.txt": "/calender_internship/static/js/2.6535d15b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc5a10e8.js",
+    "static/css/2.736d670c.chunk.css",
+    "static/js/2.6535d15b.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.6de56f95.chunk.js"
+  ]
+}
