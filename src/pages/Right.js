@@ -1,13 +1,14 @@
 import React from "react";
 import Crd from "../components/Crd";
 const Right = ({ events }) => {
-    if (events != undefined) {
-        console.log("Hii byee ee");
+    if (events !== undefined) {
         const todayDay = events.day;
 
-        const rendered = events.weekdays.map((data) => {
-            if (data.day == todayDay) {
-                return <Crd data={data.lec} />;
+        const rendered = events.weekdays.map((data, i) => {
+            if (data.day === todayDay) {
+                return <Crd data={data.lec} key={i} />;
+            } else {
+                return null;
             }
         });
 

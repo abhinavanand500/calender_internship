@@ -1,9 +1,9 @@
 import React from "react";
 
 const Crd = ({ data }) => {
-    const rend = data.map((dat) => {
+    const rend = data.map((dat, i) => {
         return (
-            <div className='row mt-3'>
+            <div className='row mt-3' key={i}>
                 <div className='col-md-3 col-sm-4'>
                     <h3>{dat.timing}</h3>
                 </div>

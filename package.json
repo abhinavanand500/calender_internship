@@ -1,5 +1,6 @@
 {
   "name": "calender",
+  "homepage": "https://abhinavanand500.github.io/calender_internship",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,9 +9,7 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.1",
     "axios": "^0.21.1",
-    "date-fns": "^2.19.0",
     "react": "^17.0.1",
-    "react-calendar": "^3.3.1",
     "react-dom": "^17.0.1",
     "react-modern-calendar-datepicker": "^3.1.6",
     "react-scripts": "4.0.3",
@@ -18,6 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

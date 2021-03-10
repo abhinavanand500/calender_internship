@@ -13,16 +13,20 @@ const Calender = (props) => {
 
     useEffect(() => {
         const fetchData = async () => {
-            
-            const date1 = `${selectedDay.day}`+'/'+`${selectedDay.month}`+'/'+`${selectedDay.year}`
-            console.log(date1)
+            const date1 =
+                `${selectedDay.day}` +
+                "/" +
+                `${selectedDay.month}` +
+                "/" +
+                `${selectedDay.year}`;
+            console.log(date1);
             const result = await axios.get("", {
-             
                 headers: {
-                    // 'Access-Control-Allow-Origin': '*',
-                    // "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
+                    "Access-Control-Allow-Origin": "*",
+                    "Access-Control-Allow-Methods":
+                        "GET,PUT,POST,DELETE,PATCH,OPTIONS",
                     "Content-Type": "Application/Json",
-                    "api_key":
+                    api_key:
                         "da7b0a5b6396da422ef093ce1c59fc0ee8971406b480f02e2d64cf39f42b896e",
                     year: "",
                     class: "",
@@ -33,7 +37,6 @@ const Calender = (props) => {
                     school_id: "SCH10100",
                 },
             });
-
             props.setEvent(result);
         };
         fetchData();
