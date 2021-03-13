@@ -3,7 +3,8 @@ import "./App.css";
 import Cal from "./components/Cal";
 import Right from "./pages/Right";
 function App() {
-    const [event, setEvent] = useState([]);
+    const [event, setEvent] = useState({});
+    console.log("Event", event);
     return (
         <div className='container'>
             <div className='row'>
